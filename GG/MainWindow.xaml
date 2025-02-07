@@ -174,7 +174,7 @@
                         <Run Foreground="Gray" Text="or" />
                     </TextBlock>
                     <TextBlock HorizontalAlignment="Center">
-                        <Hyperlink Foreground="Gray" TextDecorations="None">
+                        <Hyperlink Foreground="White" TextDecorations="None">
                             <Run Text="Sing In Later" />
                         </Hyperlink>
                     </TextBlock>
