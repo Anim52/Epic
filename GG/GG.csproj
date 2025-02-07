@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="gg\egs.png" />
+    <None Remove="gg\facebook.png" />
+    <None Remove="gg\google.png" />
+    <None Remove="gg\LogoEGS.png" />
+    <None Remove="gg\nintendo.png" />
+    <None Remove="gg\playstation.png" />
+    <None Remove="gg\settings.png" />
+    <None Remove="gg\xbox.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="gg\nintendo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="gg\egs.png" />
+    <Resource Include="gg\facebook.png" />
+    <Resource Include="gg\google.png" />
+    <Resource Include="gg\LogoEGS.png" />
+    <Resource Include="gg\playstation.png" />
+    <Resource Include="gg\settings.png" />
+    <Resource Include="gg\xbox.png" />
+  </ItemGroup>
+
+</Project>
